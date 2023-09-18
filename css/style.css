@@ -51,9 +51,9 @@
   color: var(--eucaplyptus);
   background-color: var(--dark--purple);
 }
-
+/* padding: 60px calc((100% - 960px) / 2); */
 .secondaryDefaultBtn {
-  /* background-color: var(--dark--purple); */
+  background-color: transparent;
   color: var(--white);
   font-family: "Manrope";
   font-weight: bold;
@@ -79,6 +79,18 @@ body {
 }
 
 .container {
-  max-width: 1110px;
+  max-width: 69.375rem;
   margin: 0 auto;
+  padding: 0 10px;
+}
+
+.header {
+  background-color: var(--dark--purple);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 58px;
 }
