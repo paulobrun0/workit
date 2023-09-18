@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Fraunces144";
+  src: local("Fraunces144"),
+    url("/assets/fonts/fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf");
+}
+@font-face {
+  font-family: "Manrope";
+  src: local("Manrope"),
+    url("/assets/fonts/manrope/Manrope-VariableFont_wght.ttf");
+}
+
+:root {
+  --dark--purple: #24053e;
+  --davys--grey: #584d62;
+  --eucaplyptus: #44ffa1;
+  --ghost--white: #fcf8ff;
+  --white: #ffffff;
+
+  /* Text-size styles */
+  --heading--l: 80px;
+  --heading--m: 56px;
+  --heading--m--line-spacing: 64px;
+  --heading--s: 32px;
+  --heading--s--line-spacing: 40px;
+  --body: 18px;
+}
+
+.primaryDefaultBtn {
+  background-color: var(--eucaplyptus);
+  color: var(--dark--purple);
+  font-family: "Manrope";
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 32px;
+  padding: 18px 25px;
+  border: none;
+  text-align: center;
+  border: 2px solid var(--eucaplyptus);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.primaryDefaultBtn:hover {
+  border: 2px solid var(--eucaplyptus);
+  color: var(--eucaplyptus);
+  background-color: var(--dark--purple);
+}
+
+.secondaryDefaultBtn {
+  /* background-color: var(--dark--purple); */
+  color: var(--white);
+  font-family: "Manrope";
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 32px;
+  border: none;
+  text-align: center;
+  border-bottom: 2px solid var(--eucaplyptus);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.secondaryDefaultBtn:hover {
+  border-bottom: 2px solid var(--eucaplyptus);
+  color: var(--eucaplyptus);
+}
+
+body {
+  font-family: "Maronpe";
+  font-weight: 400;
+  font-size: var(--body);
+  line-height: 2rem;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
