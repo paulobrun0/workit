@@ -76,16 +76,20 @@ body {
   font-weight: 400;
   font-size: var(--body);
   line-height: 2rem;
+  overflow-x: hidden;
 }
 
 .container {
   max-width: 69.375rem;
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 0 40px;
 }
 
 .header {
   background-color: var(--dark--purple);
+  position: relative;
+  border-bottom-right-radius: 100% 18%;
+  border-bottom-left-radius: 100% 18%;
 }
 
 header {
@@ -93,4 +97,59 @@ header {
   justify-content: space-between;
   align-items: center;
   padding-top: 58px;
+  padding-bottom: 60px;
+}
+
+.img-1 {
+  position: absolute;
+  left: -140px;
+}
+.img-2 {
+  position: absolute;
+  right: -48px;
+  top: 300px;
+}
+
+.header-info {
+  display: flex;
+  justify-content: center;
+}
+
+.header-info-header {
+  text-align: center;
+  margin-bottom: 312px;
+}
+
+.header-info-header h1 {
+  font-family: "Fraunces144";
+  color: var(--white);
+  font-weight: 600;
+  font-size: var(--heading--l);
+  line-height: var(--heading--l);
+  margin-bottom: 38px;
+}
+
+.header-info-header span {
+  text-decoration: underline;
+  text-decoration-color: hsl(150, 100%, 63%);
+  text-decoration-thickness: 0.1875rem;
+  text-underline-offset: 0.14em;
+}
+
+.header-info-header > .primaryDefaultBtn {
+  padding: 16px 32px;
+}
+.img-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  display: block;
+  position: absolute;
+  max-width: 100%;
+  margin-top: -84px;
+  width: 767px;
+  height: 441px;
 }
