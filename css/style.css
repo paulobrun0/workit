@@ -5,8 +5,8 @@
 }
 
 @font-face {
-  font-family: "Fraunces144";
-  src: local("Fraunces144"),
+  font-family: "Fraunces_144pt";
+  src: local("Fraunces_144pt"),
     url("/assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf");
 }
 @font-face {
@@ -132,7 +132,7 @@ header {
 }
 
 .header-info-header h1 {
-  font-family: "Fraunces144";
+  font-family: "Fraunces_144pt";
   color: var(--white);
   font-weight: 600;
   font-size: var(--heading--l);
@@ -185,7 +185,7 @@ header {
 }
 
 .insights span {
-  font-family: "Fraunces144";
+  font-family: "Fraunces_144pt";
   font-weight: 600;
   font-size: 2rem;
   line-height: 40px;
@@ -195,7 +195,7 @@ header {
   padding: 8px 23.5px;
 }
 .insights .insights-description h2 {
-  font-family: "Fraunces144";
+  font-family: "Fraunces_144pt";
   font-weight: 600;
   font-size: 2rem;
   line-height: 40px;
@@ -240,7 +240,7 @@ header {
 }
 
 .info-contact-me .beTheFirst {
-  font-family: "Fraunces144";
+  font-family: "Fraunces_144pt";
   font-size: 3rem;
   line-height: 64px;
 }
@@ -423,7 +423,7 @@ footer ul {
 
 /* Mobile */
 
-@media (max-width: 520px) and (min-width: 320px) {
+@media (max-width: 520px) {
   .container {
     padding: 0 10px;
   }
