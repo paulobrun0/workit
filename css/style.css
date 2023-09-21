@@ -9,11 +9,6 @@
   src: url("/assets/fonts/fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf")
     format("truetype");
 }
-@font-face {
-  font-family: "Manrope";
-  src: url("/assets/fonts/manrope/static/Manrope-Regular.ttf")
-    format("truetype");
-}
 
 :root {
   --dark--purple: #24053e;
@@ -80,15 +75,11 @@ a {
 }
 
 body {
-  font-family: "Maronpe";
+  font-family: "Manrope", sans-serif;
   font-weight: 400;
   font-size: var(--body);
   line-height: 2rem;
   overflow-x: hidden;
-}
-
-p {
-  font-family: "Manrope";
 }
 
 .container {
