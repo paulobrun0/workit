@@ -226,7 +226,6 @@ header {
 .img-profile img {
   width: 450.287px;
   height: 453px;
-  /* z-index: 0; */
 }
 
 .info-contact-me {
@@ -471,6 +470,10 @@ header {
       gap: 32px;
       margin-left: 0;
       margin-top: -94px;
+    }
+    .img-profile img {
+      width: 265px;
+      height: 267px;
     }
 
     .info-contact-me .beTheFirst {
