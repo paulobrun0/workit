@@ -7,12 +7,12 @@
 @font-face {
   font-family: "Fraunces144";
   src: local("Fraunces144"),
-    url("/assets/fonts/fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf");
+    url("assets/fonts/fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf");
 }
 @font-face {
   font-family: "Manrope";
   src: local("Manrope"),
-    url("/assets/fonts/manrope/Manrope-VariableFont_wght.ttf");
+    url("assets/fonts/manrope/Manrope-VariableFont_wght.ttf");
 }
 
 :root {
