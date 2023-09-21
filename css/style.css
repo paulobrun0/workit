@@ -5,13 +5,13 @@
 }
 
 @font-face {
-  font-family: "Fraunces_144pt";
-  src: local("Fraunces_144pt"),
-    url("/assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf");
+  font-family: "Fraunces";
+  src: url("../fonts/fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf")
+    format("truetype");
 }
 @font-face {
   font-family: "Manrope";
-  src: local("Manrope"), url("/assets/fonts/manrope/static/Manrope-Regular.ttf");
+  src: url("../fonts/manrope/Manrope-VariableFont_wght.ttf") format("truetype");
 }
 
 :root {
@@ -132,7 +132,7 @@ header {
 }
 
 .header-info-header h1 {
-  font-family: "Fraunces_144pt";
+  font-family: "Fraunces";
   color: var(--white);
   font-weight: 600;
   font-size: var(--heading--l);
@@ -185,7 +185,7 @@ header {
 }
 
 .insights span {
-  font-family: "Fraunces_144pt";
+  font-family: "Fraunces";
   font-weight: 600;
   font-size: 2rem;
   line-height: 40px;
@@ -195,7 +195,7 @@ header {
   padding: 8px 23.5px;
 }
 .insights .insights-description h2 {
-  font-family: "Fraunces_144pt";
+  font-family: "Fraunces";
   font-weight: 600;
   font-size: 2rem;
   line-height: 40px;
@@ -240,7 +240,7 @@ header {
 }
 
 .info-contact-me .beTheFirst {
-  font-family: "Fraunces_144pt";
+  font-family: "Fraunces";
   font-size: 3rem;
   line-height: 64px;
 }
